@@ -1,0 +1,63 @@
+.nav
+{
+    display: flex;
+    padding: 1vmax;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    border-bottom: 1px solid rgba(43,43,43,0.137);
+    background-color: white;
+    z-index: 1000;
+}
+.navlinks
+{
+    color: rgb(59,59,59);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-size: 'Segoe UI',Tahoma,Geneva,verdana,san-seriff;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+.navlinks:hover{
+    text-decoration: none;
+    color: orange;
+}
+#logoImage
+{
+    transform: translate(-58px);
+    transition: all 0.25;
+}
+#logoImage:hover{
+
+    transform: translateX(0);
+}
+
+
+.logo1
+{
+    background-color: orange;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+
+
+}
+.searchbox
+{
+    position: relative;
+    left: 5vmax;
+
+}
+.seachbox > input
+{
+    border: none;
+    border-bottom: 1px solid rgba(128,128,128,0.76);
+    font-size: 1.1vmax;
+    color: rgb(61,61,6);
+    outline: none;
+
+
+}
